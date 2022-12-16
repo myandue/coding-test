@@ -1,8 +1,10 @@
-n=input()
+import sys
+put=sys.stdin.readline
+n=int(put())
 li=[]
 ans=[]
-for i in range(int(n)):
-    x,y=map(int,input().split())
+for i in range(n):
+    x,y=map(int,put().split())
     li.append([x,y])
 for j in li:
     x,y=j[0], j[1]
