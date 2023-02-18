@@ -1,5 +1,5 @@
 import sys
-x = int(sys.stdin.readline())
+x = int(sys.stdin.read())
 cnt=0
 for i in range(1, x+1):
     if i%5==0:
